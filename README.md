@@ -2,13 +2,15 @@
 Only tested on Steam, submit a issue to let me know if any problems.
 
 # How to Use
-1. Please run the BDO launcher and wait for it complete the update before you replace the language file!
+1. Download the lateset version at `https://github.com/Naunter/bdocn_client_en/releases`
 
-2. Select the BDO root directory
+2. Please run the BDO launcher and wait for it complete the update before you run the tool and replace the language file!
 
-3. Select your region code
+3. Select the BDO root directory
 
-4. Run the tool to replace language file to English
+4. Select your region code
+
+5. Run the tool to replace language file to English
 
 > Example for BDO root directory: 
 >
