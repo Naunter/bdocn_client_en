@@ -1,5 +1,8 @@
 # bdocn_client_en
-Replace BDO language file to English
+## Replace BDO language file to English
+Only tested on Steam, submit a issue to let me know if any problems.
+
+
 
 # Reference
 - [bdocn_client](https://github.com/BDO-CnHope/bdocn_client)
