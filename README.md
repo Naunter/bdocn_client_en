@@ -20,7 +20,7 @@ Only tested on Steam, submit a issue to let me know if any problems.
 2. Install `pyinstaller`
 3. Download `https://github.com/Naunter/bdocn_client_en/archive/refs/heads/main.zip`
 4. Open your `cmd` on Windows, execute the command `pyinstaller.exe --clean -F -p .\ .\run.py`
-5. The compiled `.exe` will be under the `dist` folder
+5. The compiled `.exe` executeable file will be under the `dist` folder
 
 # Reference
 - [bdocn_client chinese/中文](https://github.com/BDO-CnHope/bdocn_client)
