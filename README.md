@@ -16,5 +16,6 @@ Only tested on Steam, submit a issue to let me know if any problems.
 
 
 # Reference
-- [bdocn_client](https://github.com/BDO-CnHope/bdocn_client)
+- [bdocn_client chinese/中文](https://github.com/BDO-CnHope/bdocn_client)
+- [Make your client English](https://steamcommunity.com/sharedfiles/filedetails/?id=1561979491)
 - [[Guide Update] New English Patch Links.](https://www.reddit.com/r/blackdesertonline/comments/lrid4g/guide_update_new_english_patch_links/?sort=new)
