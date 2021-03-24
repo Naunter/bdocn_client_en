@@ -11,6 +11,7 @@ Only tested on Steam, submit a issue to let me know if any problems.
 4. Run the tool to replace language file to English
 
 > Example for BDO root directory: 
+>
 > C:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
 
 
