@@ -14,6 +14,13 @@ Only tested on Steam, submit a issue to let me know if any problems.
 >
 > C:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
 
+# Compile it yourself
+
+1. Install `python` environment
+2. Install `pyinstaller`
+3. Download `https://github.com/Naunter/bdocn_client_en/archive/refs/heads/main.zip`
+4. Open your `cmd` on Windows, execute the command `pyinstaller.exe --clean -F -p .\ .\run.py`
+5. The compiled `.exe` will be under the `dist` folder
 
 # Reference
 - [bdocn_client chinese/中文](https://github.com/BDO-CnHope/bdocn_client)
