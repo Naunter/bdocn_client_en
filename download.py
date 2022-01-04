@@ -53,6 +53,7 @@ def download_loc_en(todir):
     if version != False:
         fil_version = findall(r'languagedata_en.loc\t(\d+)', version)
         url = 'http://dn.sea.playblackdesert.com/UploadData/ads/languagedata_en/' + "".join(fil_version) + '/languagedata_en.loc'
+        # no need to change this languagedata_en.loc, relative to execute_list.py
         tofilename = 'languagedata_en.loc'
         download_file(url, todir, tofilename)
     else:
@@ -65,9 +66,7 @@ def download_loc_en(todir):
 
 # if you don't need a file version number, and only has one url, then just change the "url=" at below to yours.
     url = 'http://this.is.an.example/change it to something else/languagedata_en.loc'
-    
-# also change this to match your loc
-# ex: portuguese maybe is languagedata_po.loc, i dont know but figure it out yourself.
+# no need to change this languagedata_en.loc, relative to execute_list.py
     tofilename = 'languagedata_en.loc'
     download_file(url, todir, tofilename)
  
