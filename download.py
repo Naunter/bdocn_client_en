@@ -31,6 +31,7 @@ def download_file(url, todir, tofilename):
     else:
         pass
 
+# check and get the language.loc version number (fil_version)
 def download_loc_en(todir):
     time_template()
     print("download.py >>> def download_loc_en() >>> todir: " + str(todir))
@@ -47,6 +48,8 @@ def download_loc_en(todir):
     else:
         version = a.read().decode('utf-8')
 
+# Use this lines if you need number version        
+# use the version number (fil_version) to download the latest loc file
     if version != False:
         fil_version = findall(r'languagedata_en.loc\t(\d+)', version)
         url = 'http://dn.sea.playblackdesert.com/UploadData/ads/languagedata_en/' + "".join(fil_version) + '/languagedata_en.loc'
@@ -54,3 +57,19 @@ def download_loc_en(todir):
         download_file(url, todir, tofilename)
     else:
         pass
+# line end
+ 
+"""
+# Use this lines if you don't need version number and only has one url.
+# And remember to comment the upper lines.
+
+# if you don't need a file version number, and only has one url, then just change the "url=" at below to yours.
+    url = 'http://this.is.an.example/change it to something else/languagedata_en.loc'
+    
+# also change this to match your loc
+# ex: portuguese maybe is languagedata_po.loc, i dont know but figure it out yourself.
+    tofilename = 'languagedata_en.loc'
+    download_file(url, todir, tofilename)
+ 
+# line end 
+"""
