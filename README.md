@@ -31,3 +31,4 @@ Only tested on Steam, submit a issue to let me know if any problems.
 
 # Donate and Support
 [![Foo](https://www.vultr.com/media/banners/banner_468x60.png)](https://www.vultr.com/?ref=8385583-6G)
+- [PayPal](https://paypal.me/Naunter)
